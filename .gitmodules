@@ -1,0 +1,3 @@
+[submodule "themes/glass-theme"]
+	path = themes/glass-theme
+	url = git@github.com:Jackie-Web/glass-theme.git
