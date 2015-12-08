@@ -66,11 +66,20 @@ theme: glass-theme
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repository: git@github.com:JackieBlog/JackieBlog.github.io.git
-  branch: master
+#deploy:
+#  type: git
+#  repository: https://github.com/JackieBlog/JackieBlog.github.io.git
+#  branch: master
 
+deploy:
+  type: ftpsync
+  host: 115.28.87.196
+  user: admin
+  pass: jackie
+  remote: /
+  connections: 1
+  ignore: []
+  verbose: false
 
 feed:
     type: atom
